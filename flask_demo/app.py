@@ -135,7 +135,7 @@ def verify_credential_info():
     registration_response = request.form
     trust_anchor_dir = os.path.join(
         os.path.dirname(os.path.abspath(__file__)), TRUST_ANCHOR_DIR)
-    trusted_attestation_cert_required = True
+    trusted_attestation_cert_required = False
     self_attestation_permitted = True
     none_attestation_permitted = True
 
