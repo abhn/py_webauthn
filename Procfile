@@ -1,0 +1,1 @@
+web: python flash_demo/app.py
